@@ -1,0 +1,45 @@
+/*Modificamos el QWidget*/
+QWidget {
+    /*Cambiamos color de fondo*/
+    background-color: #282828;
+    /*Cambiamos color de las letras*/
+    color: #FFFFFF;
+    /*Cambiamos la fuente*/
+    font-family: Arial, sans-serif;
+    /*Cambiamos tamaño de la fuente*/
+    font-size: 14px;
+}
+
+/*Modificamos los botones QPushButtons*/
+QPushButton {
+    background-color: #333333;
+    color: #FFFFFF;
+    /*Aumenta el tamaño del boton*/
+    padding: 10px;
+    /*Agregamos un borde solido*/
+    border-style: solid;
+    /*Cambiamos el color del borde*/
+    border-color: #555555;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: Arial;
+}
+
+/*Modificamos el estilo al pasar el mouse por el boton*/
+QPushButton:hover {
+    background-color: #444444;
+}
+
+/*Modificamos el estilo al clickear el boton*/
+QPushButton:pressed {
+    background-color: #222222;
+}
+
+/*Modificamos los QLabel*/
+QLabel {
+    background-color: #282828;
+    color: #FFFFFF;
+    border: 1px solid #555555;
+    font-size: 30px;
+    padding: 3px;
+}

@@ -1,0 +1,58 @@
+/*Modificamos el QWidget*/
+QWidget {
+    /*Cambiamos color de fondo*/
+    background-color: #282828;
+    /*Cambiamos color de las letras*/
+    color: #FFFFFF;
+    /*Cambiamos la fuente*/
+    font-family: Arial, sans-serif;
+    /*Cambiamos tamaño de la fuente*/
+    font-size: 14px;
+}
+
+/*Modificamos el estilo del QTableWidget*/
+QTableWidget {
+    background-color: #333333;
+    color: #FFFFFF;
+}
+
+/*Modificamos los estilos de los botones QPushButtons*/
+QPushButton {
+    background-color: #333333;
+    color: #FFFFFF;
+    /*Redondeamos el borde*/
+    border-radius: 5px;
+    /*Aumenta el tamaño del boton*/
+    padding: 8px 16px;
+}
+
+/*Modificamos el estilo al pasar el mouse por el boton*/
+QPushButton:hover {
+    background-color: #444444;
+}
+
+/*Modificamos el estilo al clickear el boton*/
+QPushButton:pressed {
+    background-color: #222222;
+}
+
+/*Modificamos el estilo de losn QLabels*/
+QLabel {
+    color: #FFFFFF;
+}
+
+/*Modificamos el estilo de los QLineEdits, QSpinBoxs y QDoubleSpinBoxs*/
+QLineEdit, QSpinBox, QDoubleSpinBox {
+    background-color: #444444;
+    color: #FFFFFF;
+    border: 1px solid #555555;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+/*Modificamos el estilo del QPlainTextEdit*/
+QPlainTextEdit {
+    background-color: #333333;
+    color: #FFFFFF;
+}
+
